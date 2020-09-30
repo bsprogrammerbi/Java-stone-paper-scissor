@@ -12,7 +12,7 @@ public class code {
         int compscore = 0;
         chance = 0;
         System.out.println("Welcome to the game here you are going to play Rock Paper Scissor");
-        System.out.println("You have 5 chances");
+        System.out.println("You have 5 chances to play");
         while (chance < 5) {
             int int_random = rand.nextInt(upperval - 1);
             System.out.println("---------------------------------------------------------------------------------------+");
